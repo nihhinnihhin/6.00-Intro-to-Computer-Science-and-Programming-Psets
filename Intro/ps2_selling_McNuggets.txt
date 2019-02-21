@@ -1,0 +1,13 @@
+Theorem: If it is possible to buy x, x+1,бн, x+5 sets of McNuggets, for some x, then it is possible to buy any number of McNuggets >= x, given that McNuggets come in 6, 9 and 20 packs.
+
+Proof:
+
+Because the number of sets of McNuggets,i.e.x,x+1...,x+5 is 6 i.e. one element of the base(6,9,20).
+
+so for any number of McNuggets, it can be the combination of the corresponding one in x...x+5 plus 1*6(6 is one of the base elements), for example 
+
+if x=50, then 57=(the combination for 51)+1*6
+and so on
+
+In other words, there exist at least one solution for n>=x.
+Of course it could be other combinations
